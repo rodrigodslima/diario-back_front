@@ -1,11 +1,14 @@
-import Cadastro from "./components/Cadastro/Cadastro";
+import Login from "./components/Login/Login";
 
 function App() {
   return (
-    <div style={{ padding: 20, fontFamily: "Arial, sans-serif" }}>
-      <h1>Diário Pessoal</h1>
-      <Cadastro />
-    </div>
+    <>
+      <h1>Meu Diario Pessoal</h1>
+
+      <hr style={{ margin: "40px 0" }} />
+
+      <Login />
+    </>
   );
 }
 
